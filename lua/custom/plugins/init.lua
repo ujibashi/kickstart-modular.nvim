@@ -4,6 +4,7 @@
 -- See the kickstart.nvim README for more information
 return {
   -- catppuccin colorscheme setting
+  -- see https://github.com/catppuccin/nvim for more information
   {
     'catppuccin/nvim',
     name = 'catppuccin',
