@@ -2,4 +2,14 @@
 --  I promise not to create any merge conflicts in this directory :)
 --
 -- See the kickstart.nvim README for more information
-return {}
+return {
+  -- catppuccin colorscheme setting
+  {
+    'catppuccin/nvim',
+    name = 'catppuccin',
+    priority = 2000,
+    init = function()
+      vim.cmd.colorscheme 'catppuccin'
+    end,
+  },
+}
